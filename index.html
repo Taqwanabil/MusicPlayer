@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Music Player</title>
+		<style>
+			body{
+				margin:100px auto;
+				text-align: center;
+            }
+             li{   
+                padding: 10px;
+                cursor: pointer;
+            }
+            button{
+                background-color:firebrick;
+                border-radius: 15px;
+                cursor: pointer;
+                font-size: 20px;
+            }
+		</style>
+	</head>
+	<body>
+		<div id="dashboard">
+			<audio id="sound" src="t1.mp3" controls></audio>
+            <button id="repeat">Repeat</button>
+               <button id="shuffle">Shuffle</button>
+            <ul>
+                <li id="t1">2002</li>
+                <li id="t2" >Friction</li>
+                <li id="t3">This is me</li>
+                <li id="t4">Alarm</li>
+             </ul>
+            
+		</div>
+		
+		<script src="music.js"></script>
+	</body>
+
+</html>
